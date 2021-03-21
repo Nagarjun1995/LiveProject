@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+    <listeners>
+             <listener class-name="com.mindtree.reusable.Listeners"/>
+  </listeners>
+    
+    
+	<test name="Login">
+		<classes>
+			<class name="com.mindtree.testcases.Login" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Create Account Test">
+		<classes>
+			<class name="com.mindtree.testcases.CreateAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Create Leads Test">
+		<classes>
+			<class name="com.mindtree.testcases.CreateLeadsTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

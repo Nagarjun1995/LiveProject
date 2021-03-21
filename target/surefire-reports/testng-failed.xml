@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mindtree.reusable.Listeners"/>
+  </listeners>
+  <test name="Create Account Test(failed)">
+    <classes>
+      <class name="com.mindtree.testcases.CreateAccountTest">
+        <methods>
+          <include name="createAccountTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
+  <test name="Create Leads Test(failed)">
+    <classes>
+      <class name="com.mindtree.testcases.CreateLeadsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createLeads"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.CreateLeadsTest -->
+    </classes>
+  </test> <!-- Create Leads Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
