@@ -8,7 +8,7 @@ import com.mindtree.base.TestBase;
 import com.mindtree.pages.HomePage;
 import com.mindtree.pages.LoginPage;
 import com.mindtree.utilities.TestUtil;
-//Git Change new
+
 public class Login extends TestBase {
 /*@Test(dataProviderClass = TestUtil.class, dataProvider = "dataProvider")
 	public void loginTest(Hashtable<String,String> data){
